@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Slip 19</title>
+    <script>
+        function checkValidity()
+        {
+            var name=document.forms['MyForm']['Username'].value;
+            var pass=document.forms['MyForm']['Password'].value;
+            if(name.length < 5 || name.length > 20)
+            {
+                alert("Enter name in 1 to 20 characters");
+                console.log(name);
+                return false;
+            }
+            console.log(name);
+            if(pass.length < 6 || pass.length > 10)
+            {
+                alert("Enter password in 6 to 10 characters or numbers");
+                console.log(pass); // corrected this line
+                return false;
+            }
+            console.log(name);
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form name="MyForm" onsubmit="return checkValidity()" method="post">
+        Username : <input type="text" name="Username" id="Username" required><br>
+        Password : <input type="text" name="Password" id="Password" required><br>
+        <input type="submit" name="submit" id="submit" value="login">
+    </form>
+</body>
+</html>
+

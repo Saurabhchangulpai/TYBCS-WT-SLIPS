@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Slip 8 </title>
+	</head>
+	<body>
+		<button onClick="alertt()">Alert</button>
+		<button onClick="addd()">Perform Addition</button>
+		<p id="output"></p>
+		<script>
+			function alertt()
+			{
+				alert("Exams are near,have you starting preparing for?");
+			}
+			function addd()
+			{
+				let a=prompt("Enter first number : ");
+				let b=prompt("Enter second number: ");
+				let c=parseInt(a)+parseInt(b);
+				let output=document.getElementById("output");
+				output.innerHTML="Adition of given numbers = "+c;
+			}
+		</script>
+	</body>
+</html>

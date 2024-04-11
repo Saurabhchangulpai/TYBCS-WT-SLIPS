@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function print() {
+            var fileName = document.getElementById("file").value;
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("sppan").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", "slip12.php?file=" + fileName, true);
+            xhttp.send();
+        }
+    </script>
+</head>
+<body>
+    <h1>Display the details of file</h1>
+    File name = <input type="text" id="file" name="file"><br>
+    <button id="btn" onclick="print()">Display Content</button><br>
+    <p id="sppan"></p>
+</body>
+</html>
+

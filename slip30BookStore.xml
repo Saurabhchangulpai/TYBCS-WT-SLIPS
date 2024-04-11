@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<BookStore>
+	<Yoga>
+		<book>
+			<title>YOGA BOOK</title>
+			<author>Saurabh</author>
+			<price>500</price>
+		</book>
+		<book>
+			<title>YOGA BOOK</title>
+			<author>Saurabh</author>
+			<price>500</price>
+		</book>
+	</Yoga>
+	<Story>
+		<book>
+			<title>YOGA BOOK</title>
+			<author>Saurabh</author>
+			<price>500</price>
+		</book>
+		<book>
+			<title>YOGA BOOK</title>
+			<author>Saurabh</author>
+			<price>500</price>
+		</book>
+	</Story>
+	<Technical>
+		<book>
+			<title>YOGA BOOK</title>
+			<author>Saurabh</author>
+			<price>500</price>
+		</book>
+		<book>
+			<title>YOGA BOOK</title>
+			<author>Saurabh</author>
+			<price>500</price>
+		</book>
+	</Technical>
+</BookStore>

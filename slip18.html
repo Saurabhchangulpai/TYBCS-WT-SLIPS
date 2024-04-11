@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Slip 18 HAHAHAHAHA</title>
+		<script>
+			function generateFibonacci() {
+				var num = parseInt(document.getElementById("num").value);
+				var output = document.getElementById("show");
+				
+				var f = [];
+				
+				if (num >= 1) {
+					f.push(0);
+				}
+				if (num >= 2) {
+					f.push(1);
+				}
+
+				for (var i = 2; i < num; i++) {
+					f.push(f[i - 1] + f[i - 2]);
+				}
+				
+				output.innerHTML = f.join(", ");
+			}
+		</script>
+	</head>
+	<body>
+		Enter the number: <input type="text" name="num" id="num"><br>
+		<button onclick="generateFibonacci()">Calculate Fibonacci</button>
+		<p id="show"></p>
+	</body>
+</html>
+

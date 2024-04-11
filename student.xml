@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<Student>
+	<st>
+		<StudRollNo>10</StudRollNo>
+		<StudName>Saurabh</StudName>
+		<StudAddr>Pune</StudAddr>
+		<StudColl>MIT</StudColl>
+		<StudCourse>BCS</StudCourse>
+	</st>
+	<st>
+		<StudRollNo>11</StudRollNo>
+		<StudName>Vaishnavi</StudName>
+		<StudAddr>Satara</StudAddr>
+		<StudColl>VIT</StudColl>
+		<StudCourse>BCS</StudCourse>
+	</st>
+	<st>
+		<StudRollNo>12</StudRollNo>
+		<StudName>Ajay</StudName>
+		<StudAddr>Bhosari</StudAddr>
+		<StudColl>MIT</StudColl>
+		<StudCourse>BCA</StudCourse>
+	</st>
+</Student>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<CriketTeam>
+    <team country="Australia">
+        <player>Saurabh</player>
+        <runs>50000</runs>
+        <wicket>500</wicket>
+    </team>
+    <team country="Australia">
+        <player>Smith</player>
+        <runs>5000</runs>
+        <wicket>50</wicket>
+    </team>
+</CriketTeam>

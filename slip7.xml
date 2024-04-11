@@ -1,0 +1,32 @@
+<Movies>
+	<movie>
+		<info>Bhagam Bhag</info>
+		<No>1</No>
+		<actor>Akshay Kumar</actor>
+		<year>2015</year>
+	</movie>
+	<movie>
+		<info>Hera pheri</info>
+		<No>2</No>
+		<actor>Paresh Rawal</actor>
+		<year>2011</year>
+	</movie>
+	<movie>
+		<info>Dhamal</info>
+		<No>3</No>
+		<actor>Sanjay Datt</actor>
+		<year>2008</year>
+	</movie>
+	<movie>
+		<info>Double Dhamal</info>
+		<No>4</No>
+		<actor>Kangana Ranuat</actor>
+		<year>2015</year>
+	</movie>
+	<movie>
+		<info>Bodyguard</info>
+		<No>5</No>
+		<actor>Salaman Khan</actor>
+		<year>2015</year>
+	</movie>		
+</Movies>

@@ -1,0 +1,27 @@
+<ItemDetailes>
+	<Item>
+		<ItemName>Laptop</ItemName>
+		<ItemRate>500000</ItemRate>
+		<ItemQuantity>1</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemName>sss</ItemName>
+		<ItemRate>500000</ItemRate>
+		<ItemQuantity>1</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemName>v</ItemName>
+		<ItemRate>500000</ItemRate>
+		<ItemQuantity>1</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemName>v</ItemName>
+		<ItemRate>500000</ItemRate>
+		<ItemQuantity>1</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemName>d</ItemName>
+		<ItemRate>500000</ItemRate>
+		<ItemQuantity>1</ItemQuantity>
+	</Item>			
+</ItemDetailes>

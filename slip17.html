@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Slip 17</title>
+		<script>
+			function alertt() {
+				alert("Good morning");
+			}
+			function show()
+			{
+				let name = document.getElementById("name").value;
+				let age = document.getElementById("age").value;
+				alert("Name="+name+" age = "+age);
+			}
+		</script>
+	</head>
+	<body onload="alertt()">
+		<h1>Enter the details of student</h1>
+		<form>
+			Student name: <input type="text" name="name" id="name"><br>
+			Student age: <input type="text" name="age" id="age"><br>
+			<br><input type="submit" name="submit" id="submit" onclick="show()">
+		</form>
+
+	</body>
+</html>
+

@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Slip 10 </title>
+
+		<script src="jquery-3.7.1.js"></script>
+		<script>
+			$(document).ready(function()
+			{
+				$("#Before").click(function(){
+					$("p").before("<h1>Respected before</h1>");
+				});
+				$("#After").click(function(){
+					$("p").after("<h2>Dear sir- mam after</h2>");
+				});
+			});
+		
+		</script>
+	</head>
+	<body>
+		<p id="containt">Hello Teacher</p>
+		<button id="Before">before</button>
+		<button id="After">After</button>
+	</body>
+</html>

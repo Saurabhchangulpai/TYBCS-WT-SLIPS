@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Slip 11</title>
+	</head>
+	<body onload=changeContentColor()>
+		Enter name : <input type="text" id="txt" onblur="changeContentColor()" ><br>
+		<p id="studentText"></p><br>
+		<img id="photo" src="photo.png" style="width:200px;height:200px;"
+		onmouseover="this.style.width='250px';this.style.height='240px';"
+		onmouseout="this.style.width='150px';this.style.height='140px';"
+		onclick="this.style.width='350px';this.style.height='340px';"
+		>
+		<script>
+			function changeContentColor()
+			{
+				let name=document.getElementById("txt").value;
+				let text=document.getElementById("studentText");
+				text.innerText=name || "" ;
+				text.style.color=name ? "red" : "intial";
+				text.style.fontSize=name ? "18px" : "intial";
+				document.getElementById("photo").style.display=name?"none":"block";
+			}
+		</script>
+	</body>
+</html>
+
